@@ -200,6 +200,11 @@ h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
+@media (max-width: 1200px) {
+	.main-nav a {
+		padding: 10px 10px;
+	}
+}
 
 .main-nav a:hover,
 .main-nav .active > a,
@@ -775,7 +780,7 @@ section {
 
 .icon {
 	position: absolute;
-	left: 2px;
+	left: 15px;
 	top: calc(50%-20px);
 }
 
@@ -888,12 +893,36 @@ section {
 	color: #d8eafe;
 }
 @media (max-width: 576px) {
-	#why-us h5.card-title,
-	#why-us h5.card-subtitle {
+	#why-us h5.card-title {
 		font-size: 18px;
 	}
+	#why-us h5.card-subtitle,
+	#why-us h6.card-subtitle,
 	#why-us .card ul li {
+		font-size: 15px;
+	}
+	#why-us .card {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#why-us .card .card-body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	/* #why-us .card .card-body ul{} */
+}
+@media (max-width: 478px) {
+	#why-us h5.card-title {
 		font-size: 14px;
+	}
+	#why-us h5.card-subtitle,
+	#why-us h6.card-subtitle,
+	#why-us .card ul li {
+		font-size: 12px;
+	}
+	#why-us .card {
+		width: 80%;
 	}
 }
 
@@ -1242,34 +1271,13 @@ section {
 	padding: 60px 0;
 	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-
-#team .member {
-	text-align: center;
-	margin-bottom: 20px;
-	position: relative;
-	border-radius: 20px;
-	overflow: hidden;
+#AllLangAnchor #why-us .card .card-title {
+	margin: 0;
 }
-
-#team .member .member-info {
-	opacity: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	transition: 0.2s;
-	background: rgba(0, 62, 128, 0.7);
-}
-
-#team .member h3 {
-	font-weight: 700;
-	margin-bottom: 2px;
-	font-size: 18px;
-	color: #fff;
+@media (max-width: 576px) {
+	#AllLangAnchor #why-us .card .card-title {
+		font-size: 20px;
+	}
 }
 
 /* Clients Section
