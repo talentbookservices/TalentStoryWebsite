@@ -4,7 +4,7 @@
 body {
 	background: #fff;
 	color: #444;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 span.fa.checked {
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	margin: 0 0 20px 0;
 	padding: 0;
@@ -197,7 +197,7 @@ h6 {
 	padding: 10px 15px;
 	transition: 0.3s;
 	font-size: 14px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 }
 @media (max-width: 1200px) {
@@ -450,7 +450,7 @@ h6 {
 #Intro .introRow .intro-info .brandCaption h4 {
 	font-weight: 600;
 	color: #fff;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 #Intro .introRow .intro-info .brandCaption h2 {
 	font-size: 48px;
@@ -492,7 +492,7 @@ h6 {
 	}
 }
 #Intro .introRow .intro-info .intro-buttons a {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -553,7 +553,7 @@ section {
 --------------------------------*/
 .section-header h3 {
 	font-size: 36px;
-	color: #283d50;
+	color: #fff;
 	text-align: center;
 	font-weight: 500;
 	position: relative;
@@ -562,7 +562,7 @@ section {
 .section-header p {
 	text-align: center;
 	margin: auto;
-	font-size: 15px;
+	font-size: 20px;
 	padding-bottom: 60px;
 	color: #000;
 	width: 50%;
@@ -704,7 +704,7 @@ section {
 }
 
 #about .about-container .icon-box .title {
-	margin-left: 80px;
+	margin-left: 100px;
 	font-weight: 600;
 	margin-bottom: 5px;
 	font-size: 18px;
@@ -715,9 +715,9 @@ section {
 }
 
 #about .about-container .icon-box .description {
-	margin-left: 80px;
+	margin-left: 100px;
 	line-height: 24px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .about-extra {
@@ -750,7 +750,7 @@ section {
 }
 @media (max-width: 768px) {
 	.about-text p {
-		font-size: 18px;
+		font-size: 16px;
 	}
 }
 /* Services Section
@@ -943,7 +943,7 @@ section {
 }
 
 #why-us .counters span {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	font-size: 48px;
 	display: block;
@@ -953,7 +953,7 @@ section {
 #why-us .counters p {
 	padding: 0;
 	margin: 0 0 20px 0;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	color: #cce5ff;
 }
@@ -1271,8 +1271,12 @@ section {
 	padding: 60px 0;
 	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
+#LangAnchor {
+	padding-top: 30px;
+}
 #AllLangAnchor #why-us .card .card-title {
 	margin: 0;
+	color: #000;
 }
 @media (max-width: 576px) {
 	#AllLangAnchor #why-us .card .card-title {
@@ -1330,7 +1334,7 @@ section {
 	margin: 0 0 10px 0;
 	padding: 0;
 	line-height: 1;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 300;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -1340,7 +1344,7 @@ section {
 #contact .contact-about p {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #888;
 }
 
@@ -1531,7 +1535,7 @@ section {
 	margin: 0 0 20px 0;
 	padding: 2px 0 2px 0;
 	line-height: 1;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #fff;
 	font-weight: 400;
 	letter-spacing: 3px;
