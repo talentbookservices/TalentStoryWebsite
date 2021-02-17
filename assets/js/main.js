@@ -10,6 +10,8 @@
     }
   });
 
+    
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -149,7 +151,53 @@
     delay: 10,
     time: 1000
   });
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "flex";
+    slides[slideIndex-1].style.display = "flex";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
 
+  var slideIndex1 = 0;
+  showSlide();
+  
+  function showSlide() {
+    var j;
+    var slide = document.getElementsByClassName("test");
+    for (j = 0; j < slide.length; j++) {
+      slide[j].style.display = "none";
+    }
+    slideIndex1++;
+    if (slideIndex1 > slide.length) {slideIndex1 = 1}
+    slide[slideIndex1-1].style.display = "flex";
+    slide[slideIndex1-1].style.display = "flex";
+    setTimeout(showSlide, 2000); // Change image every 2 seconds
+  }
+
+  var slideIndex2 = 0;
+  showSlidess();
+  
+  function showSlidess() {
+    var k;
+    var slide1 = document.getElementsByClassName("test1");
+    for (k = 0; k < slide1.length; k++) {
+      slide1[k].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slide1.length) {slideIndex2 = 1}
+    slide1[slideIndex2-1].style.display = "flex";
+    slide1[slideIndex2-1].style.display = "flex";
+    setTimeout(showSlidess, 2000); // Change image every 2 seconds
+  }
   // Init AOS
   function aos_init() {
     AOS.init({
